@@ -103,6 +103,32 @@ Characteristics:
 
 ---
 
+## Visualizations
+
+### Particle Presence Mask
+
+![Particle Presence Mask](images/particle_presence_mask.png)
+
+The particle presence mask identifies valid particles and distinguishes them from padded entries.
+
+---
+
+### Padding Mask
+
+![Padding Mask](images/padding_mask.png)
+
+The padding mask highlights positions introduced solely for fixed-size tensor storage.
+
+---
+
+### Jet Constituent Distribution
+
+![Multiplicity Histogram](images/multiplicity_histogram.png)
+
+Distribution of particle multiplicity across 100,000 jets in the QG Jet Dataset.
+
+---
+
 ## Comparison
 
 | Property                        | Boolean Masking | Masked Arrays        |
@@ -152,10 +178,15 @@ Citation:
 ```text
 numpy-masking-qg-jets/
 │
-├── numpy_masking_qg_jet_dataset.ipynb
+├── images/
+│   ├── README.md
+│   ├── multiplicity_histogram.png
+│   ├── padding_mask.png
+│   └── particle_presence_mask.png
+│
 ├── NumPy_Masking_QG_Jets_Report.pdf
 ├── README.md
-└── images/
+└── numpy_masking_qg_jet_dataset.ipynb
 ```
 
 ---
